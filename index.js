@@ -5,9 +5,11 @@ const { criarLivro } = require("./livros/criarLivros")
 const { listarAutores } = require("./autor/listarAutor")
 const { listarLivros } = require("./livros/listarLivros")
 
-const livro1 = criarLivro("Livro De fulano","Pedro","47")
+
 
 const autor1 = criarAutor("Pedro Lucas", "pedrolucas@gmail.com")
+criarLivro("Livro De fulano",autor1,"47")
+
 const autor2 = criarAutor("João", "pedrolucas@gmail.com")
 const autor3 = criarAutor("Carlos", "pedrolucas@gmail.com")
 const autor4 = criarAutor("Renata", "pedrolucas@gmail.com")

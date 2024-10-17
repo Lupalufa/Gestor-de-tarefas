@@ -23,7 +23,17 @@ const prompt = require("prompt-sync")();
 
 // console.log(soma)
 
-let valordigitado;
-do {
-    let valordigitado = prompt("Digite um valor")
-} while (valordigitado !== "sair");
+// let valordigitado;
+// do {
+//     let valordigitado = prompt("Digite um valor")
+// } while (valordigitado !== "sair");
+
+const dados = ["joazin","zezin"] 
+
+const index = dados.indexOf("joazin")
+
+const elemento = dados.splice(index, 1)
+
+console.log(dados)
+console.log(elemento)
+
